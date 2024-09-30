@@ -235,3 +235,10 @@ video {
 	width: 80%;
 }
 
+.categories-section {
+	padding: 10px 6px;
+}
+
+.categories-container {
+	padding: 20px 0;
+}

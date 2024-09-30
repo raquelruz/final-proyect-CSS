@@ -40,6 +40,18 @@
 	.product-card-desktop {
 		display: none;
 	}
+
+	.categories-section {
+
+	}
+
+	.categories-container img {
+		width: 744px;
+	}
+
+	.categories-container-two img {
+		width: 370px;
+	}
 }
 
 /* Media query para dispositivos DESKTOP (mayores a 1024px) */
@@ -93,6 +105,40 @@
 	.product-card-desktop-xxl {
 		display: none;
 	}
+
+	.categories-section {
+		display: flex;
+		flex-direction: row;
+	}
+
+	.categories-container {
+		width: 50%;
+	}
+
+	.categories-flex {
+		display: flex;
+		flex-direction: column;
+	}
+
+	.categories-container {
+		display: flex;
+		flex-direction: row;
+		order: 1;
+	}
+
+	.categories-container-two {
+		display: flex;
+		flex-direction: row;
+	}
+
+	.categories-container img {
+		width: 476px;
+		padding: 6px;
+	}
+
+	.categories-container-two img {
+		width: 234px;
+	}
 }
 
 /* Media query para dispositivos DESKTOP XXL (mayores a 1440px) */
@@ -128,5 +174,9 @@
 
 	.product-color img {
 		width: 100px;
+	}
+	
+	.categories-section {
+		width: 100%;
 	}
 }
