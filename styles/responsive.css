@@ -9,6 +9,22 @@
 		--container-width: 85%;
 	}
 
+	.header-mobile {
+		display: none;
+	}
+
+	.nav-content {
+		top: 100px;
+	}
+
+	.nav-desktop,
+	.nav-content-desktop {
+		display: none;
+	}
+
+	.input-search {
+		display: none;
+	}
 }
 
 /* Media query para dispositivos DESKTOP (mayores a 1024px) */
@@ -16,6 +32,16 @@
 	:root {
 		--bg-color: beige;
 		--container-width: 80%;
+	}
+
+
+	.nav-content-desktop {
+		position: relative;
+		color: #ffff;
+	}
+
+	.input-search {
+		display: inherit;
 	}
 }
 

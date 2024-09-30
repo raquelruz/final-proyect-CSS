@@ -1,25 +1,40 @@
-*, *::before, *::after {
-    box-sizing: border-box;
+*,
+*::before,
+*::after {
+	box-sizing: border-box;
 }
 
 html {
-    scroll-behavior: smooth;
+	scroll-behavior: smooth;
 }
 
-html, body {
-    font-family: Helvetica, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+html,
+body {
+	font-family: "Roboto", "Poppins", Helvetica, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+		Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
 }
 
-h1, h2, h3, h4, h5, h6,
-p, ul, ol, li,
-figure, figcaption,
-blockquote, dl, dd {
-    margin: 0;
-    padding: 0;
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+ul,
+ol,
+li,
+figure,
+figcaption,
+blockquote,
+dl,
+dd {
+	margin: 0;
+	padding: 0;
 }
 
 ul {
-    list-style-type: none;
+	list-style-type: none;
 }
 
 a {
@@ -29,25 +44,149 @@ a {
 
 /* Referencias de estilos genéricas (sustituir por los colores deseados) */
 :root {
-    --bg-color: #FABADA;
-    --accent-bg-color: #f4ede4;
-    --text-color: #1d1d1d;
-    --text-light-color: #696969;
-    --text-secondary-color: #a31212;
-    --primary-color: #0d4011;
-    --primary-color-dark: #154b21;
+	--bg-color: #fabada;
+	--accent-bg-color: #f4ede4;
+	--text-color: #1d1d1d;
+	--text-light-color: #696969;
+	--text-secondary-color: #a31212;
+	--primary-color: #0d4011;
+	--primary-color-dark: #154b21;
 }
 
 /* CSS Global para estilos */
 
 ul {
-    list-style-type: none;
+	list-style-type: none;
 }
 
 /* A partir de aquí introduce tus estilos
 (estos estilos aplican desde Mobile en adelante hasta  que se sobreescriban en alguna media query) */
+:root {
+	--accent-bg-color: #f4ede4;
+	--primary-text-color: #000;
+	--primary-color: #400d40;
+	--secondary-color: #efece6;
+	--tertiary-color: #fff5e7;
+	--primary-color-btn: #191919;
 
-body {
-    background-color: var(--bg-color);
+	--container-width: 95%;
 }
 
+body {
+	background-color: var(--bg-color);
+}
+
+nav {
+	background: transparent;
+    height: 100px;
+}
+
+header {
+	position: relative;
+}
+
+video {
+	width: 100%;
+}
+
+#video-header {
+	z-index: -1;
+	position: absolute;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	width: 100%;
+}
+
+.nav-container {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	padding: 10px;
+}
+
+.menu-mobile {
+	display: flex;
+	gap: 10px;
+}
+
+.menu-mobile,
+.nav-icons {
+	display: flex;
+	align-items: center;
+	color: #FFF;
+}
+
+
+.nav-icons {
+	display: flex;
+	gap: 10px;
+}
+
+.nav-content {
+    position: relative;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	gap: 10px;
+	color: #ffff;
+	top: -30px;
+}
+
+.nav-content h2 {
+	font-size: 18px;
+}
+
+.nav-content p {
+	font-size: 10px;
+}
+
+.nav-content button {
+	font-size: 10px;
+	color: #ffff;
+	background: transparent;
+	border: 1px solid #fff;
+	border-radius: 4px;
+	width: 45%;
+	padding: 8px;
+	top: -40px;
+}
+
+.nav-desktop {
+	display: none;
+}
+
+.nav-content-desktop {
+    display: none;
+}
+
+.input-search {
+	display: none;
+	background: transparent;
+	border: transparent;
+	border-bottom: 1px solid #ffff;
+}
+
+.nav-icons {
+	color: #ffff;
+}
+
+.news-arrivals {
+    display: flex;
+    flex-direction: row;
+    gap: 5px;
+    width: 90%;
+}
+
+.product-price {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    font-size: 12px;
+    font-weight: 600;
+}
+
+.product-info {
+    font-size: 12px;
+}
