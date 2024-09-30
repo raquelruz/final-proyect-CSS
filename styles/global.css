@@ -64,6 +64,7 @@ ul {
 :root {
 	--accent-bg-color: #f4ede4;
 	--primary-text-color: #000;
+	--contrast-color: #FFF;
 	--primary-color: #400d40;
 	--secondary-color: #efece6;
 	--tertiary-color: #fff5e7;
@@ -83,10 +84,25 @@ nav {
 
 header {
 	position: relative;
+	width: 100%;
 }
 
 video {
 	width: 100%;
+}
+
+.alert-bar {
+	background-color: var(--primary-text-color);
+	color: #FFF;
+	text-align: center;
+	font-size: 10px;
+	padding: 8px 0;
+}
+
+.video-container {
+	overflow: hidden;
+	width: 100%;
+	height: 100%;
 }
 
 #video-header {
@@ -103,7 +119,7 @@ video {
 	display: flex;
 	flex-direction: row;
 	justify-content: space-between;
-	padding: 10px;
+	padding: 20px;
 }
 
 .menu-mobile {
@@ -132,6 +148,7 @@ video {
 	gap: 10px;
 	color: #ffff;
 	top: -30px;
+	height: 20vw;
 }
 
 .nav-content h2 {
@@ -172,12 +189,31 @@ video {
 	color: #ffff;
 }
 
-.news-arrivals {
-    display: flex;
-    flex-direction: row;
-    gap: 5px;
-    width: 90%;
+.section-container {
+	width: 100%;
+	padding: 0 4px;
 }
+
+.news-arrivals {
+	display: flex;
+	flex-direction: row;
+    gap: 4px;
+    width: 95%;
+	height: 100%;
+}
+
+.product-card {
+	display: flex;
+    flex-direction: column;
+	width: 38%;
+	gap: 4px;
+}
+
+.product-card-desktop,
+.product-card-desktop-xxl {
+	display: none;
+}
+
 
 .product-price {
     display: flex;
@@ -187,6 +223,15 @@ video {
     font-weight: 600;
 }
 
-.product-info {
+.product-info-mobile {
     font-size: 12px;
 }
+
+.product-info-desktop {
+	display: none;
+}
+
+.container {
+	width: 80%;
+}
+
