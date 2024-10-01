@@ -41,142 +41,179 @@
 		display: none;
 	}
 
-	.categories-section {
-
-	}
-
 	.categories-container img {
-		width: 744px;
+		width: 756px;
 	}
 
 	.categories-container-two img {
-		width: 370px;
-	}
-}
-
-/* Media query para dispositivos DESKTOP (mayores a 1024px) */
-@media (min-width: 1024px) {
-	:root {
-		--bg-color: beige;
-		--container-width: 80%;
+		width: 376px;
 	}
 
-	.input-search {
-		display: inherit;
+	.modular-sofas-container {
+		height: 112px;
 	}
 
-	.nav-content {
-		height: 42vw;
+	.modular-sofas-btn {
+		padding-top: 10px;
 	}
 
-	.section-container {
-		padding: 20px 4px;
+	.modular-sofas-img img {
+		width: 752px;
 	}
 
-	.news-arrivals {
-		gap: 5px;
+	/* Media query para dispositivos DESKTOP (mayores a 1024px) */
+	@media (min-width: 1024px) {
+		:root {
+			--bg-color: beige;
+			--container-width: 80%;
+		}
+
+		.input-search {
+			display: inherit;
+		}
+
+		.nav-content {
+			height: 42vw;
+		}
+
+		.section-container {
+			padding: 20px 4px;
+		}
+
+		.news-arrivals {
+			gap: 5px;
+		}
+
+		.product-card-desktop {
+			width: 100%;
+		}
+
+		.product-card img {
+			width: 198px;
+		}
+
+		.product-card-desktop {
+			display: inherit;
+		}
+
+		.product-info-mobile {
+			display: none;
+		}
+
+		.product-info-desktop {
+			display: inherit;
+			font-size: 14px;
+		}
+
+		.product-color img {
+			width: 100px;
+		}
+
+		.product-card-desktop-xxl {
+			display: none;
+		}
+
+		.categories-section {
+			display: flex;
+			flex-direction: row;
+		}
+
+		.categories-container {
+			width: 50%;
+		}
+
+		.categories-container {
+			grid-template-columns: 1fr 1fr 2fr;
+		}
+
+		.categories-container-two {
+		}
+
+		.categories-container img {
+			width: 557px;
+			padding: 4px;
+			order: 1;
+		}
+
+		.categories-container-two img {
+			width: 224px;
+		}
+
+		.modular-sofas,
+		.bathroom-furniture {
+			display: flex;
+			flex-direction: row;
+		}
+
+		.modular-sofas-container {
+			width: 30%;
+			height: 373px;
+			display: flex;
+			flex-direction: column;
+			justify-content: space-between;
+		}
 	}
 
-	.product-card-desktop {
-		width: 100%;
-	}
+	/* Media query para dispositivos DESKTOP XXL (mayores a 1440px) */
+	@media (min-width: 1440px) {
+		:root {
+			--bg-color: aquamarine;
+			--container-width: 75%;
+		}
 
-	.product-card img {
-		width: 198px;
-	}
+		.nav-content {
+			height: 48vw;
+		}
 
-	.product-card-desktop {
-		display: inherit;
-	}
+		.section-container {
+			width: 100%;
+			padding: 4px 8px;
+		}
 
-	.product-info-mobile {
-		display: none;
-	}
+		.product-info-mobile {
+			display: none;
+		}
 
-	.product-info-desktop {
-		display: inherit;
-		font-size: 14px;
-	}
+		.product-info-desktop {
+			display: inherit;
+		}
 
-	.product-color img {
-		width: 100px;
-	}
+		.product-card img {
+			width: 232px;
+		}
 
-	.product-card-desktop-xxl {
-		display: none;
-	}
+		.product-card-desktop-xxl {
+			display: inherit;
+		}
 
-	.categories-section {
-		display: flex;
-		flex-direction: row;
-	}
+		.product-color img {
+			width: 100px;
+		}
 
-	.categories-container {
-		width: 50%;
-	}
+		.categories-section {
+			width: 100%;
+		}
 
-	.categories-flex {
-		display: flex;
-		flex-direction: column;
-	}
+		.categories-container img {
+			width: 782px;
+		}
 
-	.categories-container {
-		display: flex;
-		flex-direction: row;
-		order: 1;
-	}
+		.categories-container-two img {
+			width: 315px;
+		}
 
-	.categories-container-two {
-		display: flex;
-		flex-direction: row;
-	}
+		.modular-sofas-img img,
+		.bathroom-img {
+			width: 1000px;
+		}
 
-	.categories-container img {
-		width: 476px;
-		padding: 6px;
-	}
-
-	.categories-container-two img {
-		width: 234px;
-	}
-}
-
-/* Media query para dispositivos DESKTOP XXL (mayores a 1440px) */
-@media (min-width: 1440px) {
-	:root {
-		--bg-color: aquamarine;
-		--container-width: 75%;
-	}
-
-	.nav-content {
-		height: 48vw;
-	}
-
-	.section-container {
-		padding: 4px 8px;
-	}
-
-	.product-info-mobile {
-		display: none;
-	}
-
-	.product-info-desktop {
-		display: inherit;
-	}
-
-	.product-card img {
-		width: 232px;
-	}
-
-	.product-card-desktop-xxl {
-		display: inherit;
-	}
-
-	.product-color img {
-		width: 100px;
-	}
-	
-	.categories-section {
-		width: 100%;
+		.modular-sofas-container {
+			width: 60%;
+			height: 496px;
+			display: flex;
+			flex-direction: column;
+			justify-content: space-between;
+			gap: 2px;
+		}
 	}
 }

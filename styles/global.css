@@ -10,8 +10,9 @@ html {
 
 html,
 body {
-	font-family: "Roboto", "Poppins", Helvetica, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
-		Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+	font-family: "Roboto", "Poppins", Helvetica, -apple-system, BlinkMacSystemFont,
+		"Segoe UI", Roboto, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji",
+		"Segoe UI Symbol";
 }
 
 h1,
@@ -64,7 +65,7 @@ ul {
 :root {
 	--accent-bg-color: #f4ede4;
 	--primary-text-color: #000;
-	--contrast-color: #FFF;
+	--contrast-color: #fff;
 	--primary-color: #400d40;
 	--secondary-color: #efece6;
 	--tertiary-color: #fff5e7;
@@ -79,7 +80,7 @@ body {
 
 nav {
 	background: transparent;
-    height: 100px;
+	height: 100px;
 }
 
 header {
@@ -93,7 +94,7 @@ video {
 
 .alert-bar {
 	background-color: var(--primary-text-color);
-	color: #FFF;
+	color: #fff;
 	text-align: center;
 	font-size: 10px;
 	padding: 8px 0;
@@ -131,9 +132,8 @@ video {
 .nav-icons {
 	display: flex;
 	align-items: center;
-	color: #FFF;
+	color: #fff;
 }
-
 
 .nav-icons {
 	display: flex;
@@ -141,7 +141,7 @@ video {
 }
 
 .nav-content {
-    position: relative;
+	position: relative;
 	display: flex;
 	flex-direction: column;
 	align-items: center;
@@ -175,7 +175,7 @@ video {
 }
 
 .nav-content-desktop {
-    display: none;
+	display: none;
 }
 
 .input-search {
@@ -189,22 +189,31 @@ video {
 	color: #ffff;
 }
 
+.container {
+	width: 80%;
+}
+
 .section-container {
 	width: 100%;
-	padding: 0 4px;
+	padding: 10px 4px;
+}
+
+.section-container h4 {
+	font-size: 22px;
+	padding: 20px 4px;
 }
 
 .news-arrivals {
 	display: flex;
 	flex-direction: row;
-    gap: 4px;
-    width: 95%;
+	gap: 4px;
+	width: 95%;
 	height: 100%;
 }
 
 .product-card {
 	display: flex;
-    flex-direction: column;
+	flex-direction: column;
 	width: 38%;
 	gap: 4px;
 }
@@ -214,31 +223,47 @@ video {
 	display: none;
 }
 
-
 .product-price {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    font-size: 12px;
-    font-weight: 600;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	font-size: 12px;
+	font-weight: 600;
 }
 
 .product-info-mobile {
-    font-size: 12px;
+	font-size: 12px;
 }
 
 .product-info-desktop {
 	display: none;
 }
 
-.container {
-	width: 80%;
-}
-
-.categories-section {
-	padding: 10px 6px;
-}
-
 .categories-container {
-	padding: 20px 0;
+	display: grid;
+    grid-template-columns: 1fr;
+    gap: 5px;
+}
+
+
+.trending-section h3 {
+	font-size: 22px;
+}
+
+.modular-sofas-container {
+	background-color: var(--secondary-color);
+	width: 100%;
+	height: 195px;
+	padding: 20px;
+}
+
+.modular-sofas-btn {
+	padding-top: 60px;
+}
+
+.modular-sofas-btn button {
+	background: transparent;
+	border: 1px solid var(--primary-text-color);
+	padding: 4px 8px;
+	font-size: 14px;
 }
