@@ -61,6 +61,36 @@
 		width: 752px;
 	}
 
+	.featured-section-mobile {
+		display: none;
+	}
+
+	.featured-section-desktop {
+		display: flex;
+		flex-direction: row;
+		background-color: var(--secondary-color);
+	}
+
+	.featured-container {
+		display: flex;
+		flex-direction: row;
+	}
+
+	.featured-content-desktop {
+		display: flex;
+		flex-direction: column;
+	}
+
+	.featured-content {
+		display: flex;
+		flex-direction: column;
+	}
+
+	.product-featured-desktop {
+		display: flex;
+		flex-direction: row;
+		padding: 20px;
+
 	/* Media query para dispositivos DESKTOP (mayores a 1024px) */
 	@media (min-width: 1024px) {
 		:root {

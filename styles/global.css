@@ -267,3 +267,24 @@ video {
 	padding: 4px 8px;
 	font-size: 14px;
 }
+
+.featured-section-mobile {
+	background-color: var(--secondary-color);
+	width: 100%;
+	padding: 16px;
+}
+
+.featured-section-mobile h3 {
+	padding-top: 20px 0;
+}
+
+.featured-img-container {
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+	gap: 10px;
+}
+
+.featured-section-desktop {
+	display: none;
+}
+
