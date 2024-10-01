@@ -288,3 +288,39 @@ video {
 	display: none;
 }
 
+.features-section {
+	padding: 20px 8px;
+	background-color: var(--text-light-color);
+}
+
+.category-tags {
+	display: flex;
+	flex-direction: column;
+}
+
+.furniture-tags {
+	display: flex;
+    flex-wrap: wrap;
+	gap: 20px;
+	padding: 4px;
+}
+
+.furniture-tags a {
+	background-color: #DBD4C7;
+	padding: 5px;
+}
+
+.advertising p {
+	padding: 5px 4px;
+}
+
+.advertising-img {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	padding: 8px;
+}
+
+.advertising-img img {
+	width: 50%;
+}

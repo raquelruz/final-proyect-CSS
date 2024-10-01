@@ -90,6 +90,7 @@
 		display: flex;
 		flex-direction: row;
 		padding: 20px;
+	}
 
 	/* Media query para dispositivos DESKTOP (mayores a 1024px) */
 	@media (min-width: 1024px) {
@@ -182,6 +183,20 @@
 			flex-direction: column;
 			justify-content: space-between;
 		}
+
+		.category-tags {
+			flex-direction: row;
+			gap: 4px;
+		}
+
+		.advertising-img {
+			flex-wrap: nowrap;
+			gap: 20px;
+		}
+	
+		.advertising-img img {
+			width: 20%;
+		}
 	}
 
 	/* Media query para dispositivos DESKTOP XXL (mayores a 1440px) */
@@ -232,8 +247,7 @@
 			width: 315px;
 		}
 
-		.modular-sofas-img img,
-		.bathroom-img {
+		.modular-sofas-img img {
 			width: 1000px;
 		}
 
@@ -245,5 +259,17 @@
 			justify-content: space-between;
 			gap: 2px;
 		}
+
+		.category-tags {
+			display: flex;
+			flex-direction: row;
+		}
+	
+		.furniture-tags,
+		.advertising {
+			width: 45%;
+		}
+
+		
 	}
 }
