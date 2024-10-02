@@ -324,3 +324,32 @@ video {
 .advertising-img img {
 	width: 50%;
 }
+
+.mysklumstory-info {
+	text-align: center;
+}
+
+.mysklumstory-info h5 {
+	font-size: 20px;
+}
+
+.mysklumstory-rrss {
+	display: flex;
+	flex-direction: row;
+	gap: 10px;
+	padding: 10px;
+	justify-content: center;
+}
+
+.rrss-img-mobile {
+	width: 145px;
+}
+
+.arrows-mobile {
+	display: flex;
+	justify-content: center;
+}
+
+.rrss-img-tablet {
+	display: none;
+}
