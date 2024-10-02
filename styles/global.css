@@ -241,10 +241,9 @@ video {
 
 .categories-container {
 	display: grid;
-    grid-template-columns: 1fr;
-    gap: 5px;
+	grid-template-columns: 1fr;
+	gap: 5px;
 }
-
 
 .trending-section h3 {
 	font-size: 22px;
@@ -300,13 +299,13 @@ video {
 
 .furniture-tags {
 	display: flex;
-    flex-wrap: wrap;
+	flex-wrap: wrap;
 	gap: 20px;
 	padding: 4px;
 }
 
 .furniture-tags a {
-	background-color: #DBD4C7;
+	background-color: #dbd4c7;
 	padding: 5px;
 }
 
@@ -352,4 +351,19 @@ video {
 
 .rrss-img-tablet {
 	display: none;
+}
+
+.rrss-img-desktop {
+	display: none;
+}
+
+.garden-light-tablet,
+.garden-light-desktop {
+	display: none;
+}
+
+.garden-light-mobile img {
+	height: 184px;
+	width: 318px;
+	padding: 20px 0;
 }

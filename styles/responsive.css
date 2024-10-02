@@ -123,6 +123,20 @@
 		align-items: center;
 	}
 
+	.garden-light-mobile,
+	.garden-light-desktop {
+		display: none;
+	}
+
+	.garden-light-tablet {
+		display: flex;
+		justify-content: center;
+	}
+
+	.garden-light-tablet img {
+		width: 740px;
+	}
+
 	/* Media query para dispositivos DESKTOP (mayores a 1024px) */
 	@media (min-width: 1024px) {
 		:root {
@@ -230,6 +244,21 @@
 			width: 440px;
 			height: 440px;
 		}
+
+		.garden-light-tablet {
+			display: none;
+		}
+
+		.garden-light-desktop {
+			display: flex;
+			justify-content: center;
+		}
+
+		.garden-light-desktop img {
+			height: 100%px;
+			width: 990px;
+			padding: 20px 0;
+		}
 	}
 
 	/* Media query para dispositivos DESKTOP XXL (mayores a 1440px) */
@@ -315,15 +344,19 @@
 			gap: 20px;
 		}
 
-
 		.img-desktop-container img {
-			width: 540px;
-			height: 540px;
+			width: 303px;
+			height: 303px;
 		}
 
 		.gray-arrows img {
 			width: 80px;
 			height: 80px;
+		}
+
+		.garden-light-desktop img {
+			height: 100%;
+            width: 1400px;
 		}
 	}
 }
