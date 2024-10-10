@@ -204,6 +204,40 @@
 	.trustpilot-info-tablet {
 		text-align: center;
 	}
+
+	.footer-lists {
+		display: flex;
+		flex-direction: row;
+	}
+
+	.footer-lists a {
+		font-size: 14px;
+	}
+
+	.payments-img-container {
+		flex-wrap: nowrap;
+	}
+
+	.copyright-container {
+		flex-direction: row;
+	}
+
+	.copyright-container-content {
+		align-items: baseline;
+	}
+
+	.copyright-container p {
+		text-align: left;
+	}
+
+	.footer-logo-sklum {
+		width: 20%;
+		padding: 20px 10px;
+	}
+
+	.footer-logo-sklum img {
+		width: 60%;
+	}
 }
 /* Media query para dispositivos DESKTOP (mayores a 1024px) */
 @media (min-width: 1024px) {
@@ -503,5 +537,9 @@
 	.reviews-desktop-xxl,
 	.reviews-desktop-xxl img {
 		width: 100%;
+	}
+
+	.copyright-container-content {
+		flex-direction: ;
 	}
 }

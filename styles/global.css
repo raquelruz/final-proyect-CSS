@@ -508,3 +508,99 @@ video {
 	border: none;
 	padding: 10px;
 }
+
+.footer-container {
+	background-color: #EFECE6;
+	padding: 20px;
+}
+
+.footer-lists {
+	display: flex;
+	flex-direction: column;
+	gap: 20px;
+}
+
+.footer-lists h5 {
+	font-size: 18px;
+	padding: 10px 0;
+}
+
+.footer-lists a {
+	padding: 6px 0;
+}
+
+.footer-about,
+.footer-category,
+.footer-rooms,
+.footer-help {
+	display: flex;
+	flex-direction: column;
+}
+
+.footer-rrss {
+	font-size: 24px;
+}
+
+.footer-rrss i {
+	padding: 8px 10px;
+}
+
+.secure-payment {
+	background-color: #EFECE6;
+}
+
+.secure-payment h5 {
+	font-size: 18px;
+}
+
+.payments-img-container {
+	width: 100%;
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	align-items: center;
+}
+
+.payments-img-container picture {
+	display: flex;
+	justify-content: center;
+}
+
+.payments-img {
+	width: 50%;
+	display: flex;
+}
+
+.payments-img img {
+	width: 50%;
+}
+
+.copyright-container {
+	width: 100%;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	padding: 20px;
+}
+
+.footer-logo-sklum {
+	width: 28%;
+	padding: 20px 10px;
+}
+
+.footer-logo-sklum img {
+	width: 100%;
+}
+
+.copyright-container p {
+	font-size: 12px;
+	text-align: center;
+	font-weight: 500;
+	padding: 0 20px;
+}
+
+.copyright-container-content {
+	display: flex;
+    align-items: center;
+    flex-direction: column;
+}
