@@ -484,3 +484,27 @@ video {
 .trustpilot-info-desktop-xxl {
 	display: none;
 }
+
+.newsletters-container {
+	background-color: #EFECE6;
+	color: var(--primary-text-color);
+	font-size: 20px;
+	padding: 20px;
+}
+
+.newsletters-content {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	text-align: center;
+	gap: 20px;
+}
+
+.newsletters-btn {
+	background-color: var(--primary-text-color);
+	color: #FFF;
+	font-size: 18px;
+	border: none;
+	padding: 10px;
+}
