@@ -126,6 +126,7 @@ video {
 .menu-mobile {
 	display: flex;
 	gap: 10px;
+	color: #fff;
 }
 
 .menu-mobile,
@@ -144,6 +145,7 @@ video {
 	position: relative;
 	display: flex;
 	flex-direction: column;
+	justify-content: center;
 	align-items: center;
 	gap: 10px;
 	color: #ffff;
@@ -207,8 +209,7 @@ video {
 	display: flex;
 	flex-direction: row;
 	gap: 4px;
-	width: 95%;
-	height: 100%;
+	width: 100%;
 }
 
 .product-card {
@@ -216,6 +217,11 @@ video {
 	flex-direction: column;
 	width: 38%;
 	gap: 4px;
+}
+
+.product-card-img,
+.product-card-img img {
+	width: 100%;
 }
 
 .product-card-desktop,
@@ -245,31 +251,37 @@ video {
 	gap: 5px;
 }
 
+.categories-container img {
+	width: 100%;
+}
+
+.garden-category,
+.chair-category,
+.sofas-category,
+.lamp-category {
+	width: 100%;
+}
+
+
+.categories-container-two img {
+	width: 100%;
+}
+
 .trending-section h3 {
 	font-size: 22px;
 }
 
-.modular-sofas-container {
-	background-color: var(--secondary-color);
+.desks-section,
+.desks-section img,
+.featured-content,
+.featured-content img,
+.featured-content-mobile,
+.featured-content-mobile img {
 	width: 100%;
-	height: 195px;
-	padding: 20px;
-}
-
-.modular-sofas-btn {
-	padding-top: 60px;
-}
-
-.modular-sofas-btn button {
-	background: transparent;
-	border: 1px solid var(--primary-text-color);
-	padding: 4px 8px;
-	font-size: 14px;
 }
 
 .featured-section-mobile {
 	background-color: var(--secondary-color);
-	width: 100%;
 	padding: 16px;
 }
 
@@ -292,6 +304,29 @@ video {
 	background-color: var(--text-light-color);
 }
 
+
+.modular-sofas-container {
+	background-color: var(--secondary-color);
+	width: 100%;
+	height: 100%;
+	padding: 20px;
+}
+
+.modular-sofas-img img {
+	width: 100%;
+}
+
+.modular-sofas-btn {
+	padding-top: 60px;
+}
+
+.modular-sofas-btn button {
+	background: transparent;
+	border: 1px solid var(--primary-text-color);
+	padding: 4px 8px;
+	font-size: 14px;
+}
+
 .category-tags {
 	display: flex;
 	flex-direction: column;
@@ -300,13 +335,14 @@ video {
 .furniture-tags {
 	display: flex;
 	flex-wrap: wrap;
-	gap: 20px;
-	padding: 4px;
+	gap: 10px;
+	padding: 0 6px;
 }
 
 .furniture-tags a {
 	background-color: #dbd4c7;
 	padding: 5px;
+	margin: 0 2px;
 }
 
 .advertising p {
@@ -340,8 +376,9 @@ video {
 	justify-content: center;
 }
 
-.rrss-img-mobile {
-	width: 145px;
+.rrss-img-mobile,
+.rrss-img-mobile img {
+	width: 100%;
 }
 
 .arrows-mobile {
@@ -349,21 +386,101 @@ video {
 	justify-content: center;
 }
 
-.rrss-img-tablet {
-	display: none;
-}
-
+.rrss-img-tablet,
 .rrss-img-desktop {
 	display: none;
 }
 
-.garden-light-tablet,
-.garden-light-desktop {
-	display: none;
+
+.garden-light-banner,
+.garden-light-banner img {
+	width: 100%;
 }
 
-.garden-light-mobile img {
-	height: 184px;
-	width: 318px;
-	padding: 20px 0;
+.sklum-article-img,
+.sklum-article-img img {
+	width: 100%;
+	padding: 0 8px;
+}
+
+.sklum-blog-content h5,
+.sklum-blog-content-two h5 {
+	font-size: 20px;
+	padding: 0px 10px 20px 10px;
+}
+
+.sklum-blog-content p,
+.sklum-blog-content-two p {
+	padding: 10px;
+}
+
+.sklum-article-btn {
+	display: flex;
+	align-items: center;
+	padding: 20px;
+}
+
+.sklum-article-btn button {
+	background-color: var(--primary-text-color);
+	color: var(--contrast-color);
+	border: none;
+	width: 100%;
+	padding: 4px 16px;
+}
+
+.reviews-mobile {
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	align-items: center;
+	gap: 10px;
+	padding-top: 20px;
+	color: #6d6d6d;
+}
+
+.reviews i {
+	font-size: 18px;
+	color: #c5c5c5;
+}
+
+.reviews,
+.reviews img {
+	width: 100%;
+}
+
+.trustpilot-info {
+	font-size: 10px;
+	text-align: center;
+}
+
+.numers-reviews {
+	font-weight: 500;
+}
+
+.opinions {
+	text-decoration: underline;
+}
+
+.trustpilot-logo {
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	padding: 8px;
+}
+
+.trustpilot-logo {
+	color: #00b67a;
+}
+
+.trustpilot-logo p {
+	color: var(--primary-text-color);
+}
+
+.reviews-tablet,
+.reviews-desktop,
+.reviews-desktop-xxl,
+.trustpilot-info-tablet,
+.trustpilot-info-desktop,
+.trustpilot-info-desktop-xxl {
+	display: none;
 }
