@@ -45,7 +45,6 @@ a {
 
 /* Referencias de estilos genéricas (sustituir por los colores deseados) */
 :root {
-	--bg-color: #fabada;
 	--accent-bg-color: #f4ede4;
 	--text-color: #1d1d1d;
 	--text-light-color: #696969;
@@ -210,7 +209,9 @@ video {
 	padding: 20px 4px;
 }
 
-.news-arrivals {
+.news-arrivals,
+.bought-together,
+.last-viewed-products {
 	display: flex;
 	flex-direction: row;
 	gap: 4px;
@@ -772,4 +773,9 @@ video {
 	background-color: var(--primary-text-color);
 	color: #FFF;
 	padding: 8px 18px;
+}
+
+.section-container h3 {
+	font-size: 20px;
+	padding: 20px 0;
 }
