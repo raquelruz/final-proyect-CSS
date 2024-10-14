@@ -240,6 +240,11 @@
 	}
 
 	/* PÁGINA CARRITO */
+
+	.product-cart-flex {
+		flex-direction: row;
+	}
+
 }
 /* Media query para dispositivos DESKTOP (mayores a 1024px) */
 @media (min-width: 1024px) {

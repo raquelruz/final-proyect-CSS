@@ -727,3 +727,49 @@ video {
 	border: 1px solid var(--primary-text-color);
 	padding: 4px 12px;
 }
+
+.product-cart-flex,
+.product-cart-flex-two {
+	display: flex;
+	flex-direction: column;
+	gap: 20px;
+	width: 100%;
+}
+
+.product-cart-flex {
+	padding: 4px;
+}
+
+.product-cart-flex-two {
+	padding: 20px;
+}
+
+.order-summary-container {
+	width: 100%;
+}
+
+.coupon,
+.total-products,
+.total-shipment,
+.total-price {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	padding: 20px 0;
+}
+
+.taxes {
+	color: #696969;
+}
+
+.total-btn {
+	display: flex;
+	justify-content: center;
+	padding: 12px;
+}
+
+.total-btn button {
+	background-color: var(--primary-text-color);
+	color: #FFF;
+	padding: 8px 18px;
+}
