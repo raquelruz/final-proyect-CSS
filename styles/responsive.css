@@ -238,6 +238,8 @@
 	.footer-logo-sklum img {
 		width: 60%;
 	}
+
+	/* PÁGINA CARRITO */
 }
 /* Media query para dispositivos DESKTOP (mayores a 1024px) */
 @media (min-width: 1024px) {
@@ -377,6 +379,8 @@
 		display: inherit;
 		text-align: center;
 	}
+
+	/* PÁGINA CARRITO */
 }
 
 /* Media query para dispositivos DESKTOP XXL (mayores a 1440px) */
@@ -538,4 +542,6 @@
 	.reviews-desktop-xxl img {
 		width: 100%;
 	}
+
+	/* PÁGINA CARRITO */
 }
