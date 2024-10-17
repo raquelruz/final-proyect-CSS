@@ -311,22 +311,24 @@ video {
 }
 
 
-.modular-sofas-container {
+.modular-sofas-container,
+.bathroom-container {
 	background-color: var(--secondary-color);
 	width: 100%;
 	height: 100%;
 	padding: 20px;
 }
 
-.modular-sofas-img img {
+.modular-sofas-img img,
+.bathroom-img img {
 	width: 100%;
 }
 
-.modular-sofas-btn {
+.bathroom-btn {
 	padding-top: 60px;
 }
 
-.modular-sofas-btn button {
+.bathroom-btn button {
 	background: transparent;
 	border: 1px solid var(--primary-text-color);
 	padding: 4px 8px;

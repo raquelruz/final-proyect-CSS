@@ -5,7 +5,6 @@
 /* Media query para dispositivos TABLET (mayores a 480px) */
 @media (min-width: 481px) {
 	:root {
-		--bg-color: lightcoral;
 		--container-width: 85%;
 	}
 
@@ -113,15 +112,13 @@
 		gap: 10px;
 	}
 
-	.modular-sofas-container {
-		height: 100%;
-	}
-
-	.modular-sofas-btn {
+	.modular-sofas-btn,
+	.bathroom-btn {
 		padding-top: 10px;
 	}
 
-	.modular-sofas-img img {
+	.modular-sofas-img img,
+	.bathroom-img img {
 		width: 100%;
 	}
 
@@ -240,16 +237,10 @@
 	}
 
 	/* PÁGINA CARRITO */
-
-	.product-cart-flex {
-		flex-direction: row;
-	}
-
 }
 /* Media query para dispositivos DESKTOP (mayores a 1024px) */
 @media (min-width: 1024px) {
 	:root {
-		--bg-color: beige;
 		--container-width: 80%;
 	}
 
@@ -320,14 +311,16 @@
 		flex-wrap: wrap;
 	}
 
-	.modular-sofas {
+	.modular-sofas,
+	.bathroom {
 		display: flex;
 		flex-direction: row;
 	}
 
-	.modular-sofas-container {
+	.modular-sofas-container,
+	.bathroom-container {
 		width: 100%;
-		height: 100%;
+		height: auto;
 		display: flex;
 		flex-direction: column;
 		justify-content: space-between;
@@ -386,12 +379,15 @@
 	}
 
 	/* PÁGINA CARRITO */
+	.product-cart-flex,
+	.product-cart-flex-two {
+		flex-direction: row;
+	}
 }
 
 /* Media query para dispositivos DESKTOP XXL (mayores a 1440px) */
 @media (min-width: 1440px) {
 	:root {
-		--bg-color: aquamarine;
 		--container-width: 75%;
 	}
 
@@ -431,12 +427,9 @@
 		width: 100%;
 	}
 
-	.categories-container-two img {
-		width: 315px;
-	}
-
+	.categories-container-two img,
 	.desks-section-desktop img {
-		width: 650px;
+		width: 100%;
 	}
 
 	.product-featured-desktop {
@@ -452,17 +445,9 @@
 		font-size: 18px;
 	}
 
-	.modular-sofas-img img {
-		width: 1000px;
-	}
-
-	.modular-sofas-container {
-		width: 60%;
-		height: 496px;
-		display: flex;
-		flex-direction: column;
-		justify-content: space-between;
-		gap: 2px;
+	.modular-sofas-img img,
+	.bathroom-img img {
+		width: 100%;
 	}
 
 	.category-tags {
